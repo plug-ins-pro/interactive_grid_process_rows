@@ -1,7 +1,7 @@
 {
    "name": "UC - Interactive Grid Process Rows",
-   "version": "22.1.0",
-   "description": "Process the selected or filtered Interactive Grid rows declaratively.\r\n\u003Ch4\u003EFree Plug-in under MIT License\u003C\/h4\u003E\r\n\u003Cp\u003E\r\nAll UC plug-ins are released under MIT License, which essentially means it is free for everyone to use, no matter if commercial or private use. \r\n\u003C\/p\u003E\r\n\u003Ch4\u003EOverview\u003C\/h4\u003E\r\n\u003Cp\u003E\r\n    The \u003Cstrong\u003EUC - Interactive Grid - Process Rows\u003C\/strong\u003E plug-in is used for bulk-processing rows of an interactive grid. It is a dynamic action that runs PL\/SQL code on either only the selected rows or all filtered rows.\r\n\u003C\/p\u003E\r\n\u003Cp\u003E\r\n    You can pass page-items in and out of the PL\/SQL code, display success and error messages, programmatically control success and error message content and behaviour, declaratively refresh the selected rows or the whole grid after completion, and it also takes care of message substitutions and escaping.\r\n\u003C\/p\u003E",
+   "version": "23.1",
+   "description": "Free Plug-in under MIT License, which means it is free for everyone to use, no matter if for commercial or private use. The UC Interactive Grid - Process Rows plug-in is used for bulk-processing rows of an interactive grid. It is a dynamic action that runs PL/SQL code on either only the selected rows or all filtered rows. You can pass page items in and out of the PL/SQL code, display success and error messages, programmatically control success and error message content and behavior, declaratively refresh the selected rows or the whole grid after completion, and it also takes care of message substitutions and escaping.",
    "keywords": [
       "interactive grid",
       "process",
@@ -12,20 +12,20 @@
    "license": "MIT",
    "commercial": "No",
    "commercially_supported": "Yes",
-   "homepage": "https:\/\/github.com\/foex-open-source\/uc-interactive-grid-process-rows",
+   "homepage": "https://www.plug-ins-pro.com/",
    "bugs": {
-      "url": "https:\/\/github.com\/foex-open-source\/uc-interactive-grid-process-rows\/issues",
-      "email": "support@uc.world"
+      "url": "https://github.com/plug-ins-pro/interactive_grid_process_rows/issues",
+      "email": "info@plug-ins-pro.com"
    },
    "author": {
-      "name": "UC GmbH",
-      "email": "office@uc.world",
-      "url": "https:\/\/foex.at\/uc\/",
-      "twitter": "@foexopensource"
+      "name": "United Codes",
+      "email": "info@plug-ins-pro.com",
+      "url": "https://www.plug-ins-pro.com/",
+      "twitter": "@Plug_ins_Pro"
    },
    "repository": {
       "type": "git",
-      "url": "https:\/\/github.com\/foex-open-source\/uc-interactive-grid-process-rows.git"
+      "url": "https://github.com/plug-ins-pro/interactive_grid_process_rows"
    },
    "oracle": {
       "versions": [
@@ -33,7 +33,8 @@
          "12.2.0.1",
          "18.0.0.0",
          "19.0.0.0",
-         "21.0.0.0"
+         "21.0.0.0",
+         "23.0.0.0"
       ],
       "apex": {
          "versions": [
@@ -42,13 +43,15 @@
             "20.2.0",
             "21.1.0",
             "21.2.0",
-            "22.1.0"
+            "22.1.0",
+            "23.1.0",
+            "23.2.0"
          ],
          "plugin": {
             "internalName": "UNITEDCODES_INTERACTIVE_GRID_PROCESS_ROWS",
             "type": "dynamic action",
-            "demo": "https:\/\/uc.world\/ords\/f?p=10000:2020",
-            "previewImage": "https:\/\/uc.world\/ords\/uc_master_ws\/uc-image\/COM.UC.INTERACTIVE_GRID_PROCESS_ROWS"
+            "demo" : "https://www.plug-ins-pro.com/ords/pluginspro_web/r/pluginspro_free/",
+            "previewImage": "https://unitedcodes.s3.eu-west-1.amazonaws.com/plugin/images/UC_IG_PROCESS_ROWS.png"
          }
       }
    }
